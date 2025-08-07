@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartDeals - Your Gadget & Style Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.3rem 0 0;
+      font-size: 1.2rem;
+    }
+    .product-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 2rem;
+    }
+    .product-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 220px;
+      margin: 1rem;
+      text-align: center;
+      padding: 1rem;
+      transition: transform 0.3s;
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .product-card h2 {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+    .price {
+      color: green;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SmartDeals</h1>
+    <p>Your Gadget & Style Store</p>
+  </header>
+
+  <main class="product-container">
+    <div class="product-card">
+      <img src="watch.jpg" alt="Watch">
+      <h2>Stylish Watch</h2>
+      <p class="price">₹1,999</p>
+    </div>
+    <div class="product-card">
+      <img src="https://picsum.photos/200/150?random=2" alt="Bag">
+      <h2>Travel Bag</h2>
+      <p class="price">₹2,499</p>
+    </div>
+    <div class="product-card">
+      <img src="https://picsum.photos/200/150?random=3" alt="Keypad">
+      <h2>Gaming Keypad</h2>
+      <p class="price">₹899</p>
+    </div>
+    <div class="product-card">
+      <img src="https://picsum.photos/200/150?random=4" alt="Mouse">
+      <h2>Wireless Mouse</h2>
+      <p class="price">₹799</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SmartDeals. All rights reserved.</p>
+  </footer>
+</body>
+</html>
